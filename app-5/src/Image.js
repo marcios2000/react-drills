@@ -4,7 +4,7 @@ class Image extends Component {
     render() {
         return (
             <div>
-                <img src={"/Users/marciosilva/devmtn/react-drills/app-5/src/earth.jpg"} alt="foto"/>
+                <img src={this.props.picture} alt="foto"/>
             <caption> Error 599</caption>
             </div>
             
